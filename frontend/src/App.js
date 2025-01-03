@@ -13,7 +13,7 @@ import UserPage from "./pages/UserPage";
 
 
 // Set base URL for API requests
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://management-system-for-project-1.onrender.com";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
